@@ -1,0 +1,312 @@
+/*
+Colors:
+Dark Background: #1f2228
+Middle Background: #232930
+Light Background: #2e3640;
+
+Normal Text: #74899F
+Accent dark: #2B8992
+Accent light: #50cbd6
+
+Link : #cc3f6c;
+Link hover: #e05480
+*/
+
+html,
+body,
+#content-body,
+#content-body > div.milestones > ul > li {
+    background-color: #232930;
+    color: #74899F
+}
+
+body.ui-blue > .navbar-gitlab,
+#content-body > div.milestones {
+    background-color: #1f2228;
+    border: none;
+}
+
+#logo,
+#nav-projects-dropdown > button,
+#nav-groups-dropdown > button,
+body > header > div > div > div.title-container > ul > li > a,
+body > header > div > div > div.navbar-collapse.collapse > ul > li > a {
+    background-color: #1f2228;
+    color: #2B8992;
+    border: none;
+}
+
+#logo:hover,
+#logo:active,
+#nav-projects-dropdown > button:hover,
+#nav-projects-dropdown > button:active,
+#nav-groups-dropdown > button:hover,
+body > header > div > div > div.title-container > ul.list-unstyled.navbar-sub-nav > li.d-none.d-lg-block.d-xl-block > a:hover,
+body > header > div > div > div.title-container > ul.list-unstyled.navbar-sub-nav > li > a:active,
+body > header > div > div > div.title-container > ul.list-unstyled.navbar-sub-nav > li > a.admin-icon.qa-admin-area-link:hover,
+body > header > div > div > div.title-container > ul.list-unstyled.navbar-sub-nav > li.d-none.d-lg-block.d-xl-block.active > a,
+body > header > div > div > div.title-container > ul > li.active > a.admin-icon.qa-admin-area-link,
+body > header > div > div > div.navbar-collapse.collapse > ul.nav.navbar-nav > li > a:hover,
+body > header > div > div > div.navbar-collapse.collapse > ul.nav.navbar-nav > li > a:active {
+    background-color: #232930;
+    color: #50cbd6;
+    border: none;
+}
+
+body > header > div > div > div.navbar-collapse.collapse > ul > li.header-new.dropdown.show > a.header-new-dropdown-toggle.has-tooltip.qa-new-menu-toggle,
+#nav-groups-dropdown > button:active {
+    background-color: #232930;
+    color: #2B8992;
+    border: none;
+}
+
+
+body > div > div > div.alert-wrapper > nav > div,
+#content-body > div > div.nav-block > ul,
+#content-body > div > div.js-projects-list-holder > ul > li,
+#content-body > div > div.row-content-block.top-block.d-none.d-sm-block.white,
+#content-body > div > div.top-area,
+#content-body > div > section > div.content_list > div,
+#content-body > div > section > div.nav-block.activities,
+#content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs,
+#content-body > div.top-area,
+#content-body > div.js-projects-list-holder > ul > li,
+#content-body > div.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs,
+#content-body > div.snippets-list-holder > ul > li {
+    color: #74899F;
+    border-bottom: 2px solid #2B8992;
+}
+
+body > div > div > div.alert-wrapper > nav > div > div > ul > li > h2 > a,
+#content-body > div > div.js-projects-list-holder > ul > li > div.project-details > h3 > a,
+#content-body > div > div.row-content-block.top-block.d-none.d-sm-block.white > div > div.event-last-push-text > strong > a,
+#content-body > div > section > div.content_list > div > div.event-body > ul > li > div > a,
+#content-body > div > section > div.content_list > div > div.event-title > span.author_name > a,
+#content-body > div > section > div.content_list > div > div.event-title > strong > a,
+#content-body > div > section > div.content_list > div > div.event-title > span.event-scope > a > span.namespace-name,
+#content-body > div > section > div.content_list > div > div.event-title > span.event-scope > a > span.project-name,
+#content-body > div.js-projects-list-holder > ul > li > div.project-details > h3 > a > span > span.namespace-name,
+#content-body > div.js-projects-list-holder > ul > li > div.project-details > h3 > a > span > span.project-name,
+#content-body > div.milestones > ul > li > div > div.milestone-progress > a,
+#content-body > div.milestones > ul > li  > div > div > div > strong > a,
+#content-body > div.snippets-list-holder > ul > li > div.title > a,
+#content-body > div.snippets-list-holder > ul > li > div.snippet-info > a,
+#content-body > div.snippets-list-holder > ul > li > div.snippet-info > span > a,
+#content-body > div.snippets-list-holder > ul > li > div.title > ul > li > a {
+    color: #cc3f6c;
+}
+
+body > div > div > div.alert-wrapper > nav > div > div > ul > li > h2 > a:hover,
+#content-body > div > div.js-projects-list-holder > ul > li > div.project-details > h3 > a:hover,
+#content-body > div > div.row-content-block.top-block.d-none.d-sm-block.white > div > div.event-last-push-text > strong > a:hover,
+#content-body > div > section > div.content_list > div > div.event-body > ul > li > div > a:hover,
+#content-body > div > section > div.content_list > div > div.event-title > span.author_name > a:hover,
+#content-body > div > section > div.content_list > div > div.event-title > strong > a:hover,
+#content-body > div > section > div.content_list > div > div.event-title > span.event-scope > a:hover > span.namespace-name,
+#content-body > div > section > div.content_list > div > div.event-title > span.event-scope > a:hover > span.project-name,
+#content-body > div.js-projects-list-holder > ul > li > div.project-details > h3 > a:hover > span > span.namespace-name,
+#content-body > div.js-projects-list-holder > ul > li > div.project-details > h3 > a:hover > span > span.project-name,
+#content-body > div.snippets-list-holder > ul > li > div.title > a:hover,
+#content-body > div.snippets-list-holder > ul > li > div.title > ul > li > a:hover {
+    text-decoration: underline;
+    color: #e05480;
+}
+
+#all_event_filter,
+#push_event_filter,
+#merged_event_filter,
+#issue_event_filter,
+#comments_event_filter,
+#team_event_filter,
+#sort-projects-dropdown > i,
+#content-body > div.snippets-list-holder > ul > li > div.title > ul > li > i,
+#content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li > a,
+#content-body > div.js-projects-list-holder > div,
+#content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul > li.dropdown-header,
+#content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul > li > a,
+#content-body > div > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li > a,
+#content-body > div > div.nav-block > ul > li > a,
+#content-body > div > div.top-area > ul > li > a,
+#content-body > div > ul > li > a,
+#content-body > div > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul > li.dropdown-header,
+#content-body > div > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul > li > a,
+#content-body > div > section > div.content_list > div > div.event-body > ul > li > div,
+#content-body > div > section > div.content_list > div > div.event-body > ul > li.commits-stat > span,
+#content-body > div > section > div.content_list > div > div.event-body > ul > li.commits-stat > a,
+#content-body > div > div.js-projects-list-holder > div,
+#content-body > div > div > div > button > i.fa.fa-chevron-down,
+#content-body > div > div > div > button > i.fa.fa-globe,
+#content-body > div > div > div > button > span,
+#content-body > div > div > div > ul > li > a,
+body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.d-none.d-sm-none.d-md-block.m-auto > div > form > div.search-input-container > div.search-input-wrap > div.dropdown.show > div.dropdown-menu.dropdown-select.show > div.dropdown-content > ul > li > a,
+body > header > div > div > div.navbar-collapse.collapse > ul > li.header-new.dropdown.show > div > ul > li > a {
+    color: #74899F;
+}
+
+#content-body > div.milestones > ul > li > div > div.milestone-progress > div.float-lg-right.light,
+#content-body > div.milestones > ul > li > div > div > div.milestone-range.append-bottom-5,
+#content-body > div.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs > li > a{
+    color: #2B8992;
+}
+
+#all_event_filter:active,
+#push_event_filter:active,
+#merged_event_filter:active,
+#issue_event_filter:active,
+#comments_event_filter:active,
+#team_event_filter:active,
+#content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li.active > a,
+#content-body > div > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li.active > a,
+#content-body > div > div.nav-block > ul > li.active > a,
+#content-body > div > div.top-area > ul > li.active > a,
+#content-body > div > section > div.nav-block.activities > div.scrolling-tabs-container.inner-page-scroll-tabs.is-smaller.flex-fill > ul > li.active > a.event-filter-link,
+#content-body > div > ul > li.active > a,
+#content-body > div.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs > li.active > a {
+    color: #2B8992;
+    border-bottom: 2px solid #2B8992
+}
+
+#push_event_filter:hover,
+#merged_event_filter:hover,
+#issue_event_filter:hover,
+#comments_event_filter:hover,
+#team_event_filter:hover,
+#content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li > a:hover,
+#content-body > div > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li > a:hover,
+#content-body > div > div.nav-block > ul > li > a:hover,
+#content-body > div > div.top-area > ul > li > a:hover,
+#content-body > div > section > div.nav-block.activities > div.scrolling-tabs-container.inner-page-scroll-tabs.is-smaller.flex-fill > ul > li > a.event-filter-link:hover,
+#content-body > div > ul > li > a:hover,
+#content-body > div.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs > li > a:hover {
+    color: #50CBD6;
+    border-bottom: 2px solid #50cbd6
+}
+
+#content-body > div > div.js-projects-list-holder > ul > li > div.project-details > h3 > span,
+#content-body > div.js-projects-list-holder > ul > li > div.project-details > h3 > span{
+    color: #50CBD6;
+    border: 2px solid #2B8992
+}
+
+#project-filter-form-field,
+#sort-projects-dropdown,
+#content-body > div> div > div > button {
+    background-color: #232930;
+    border: 2px solid #1f2228;
+    color: #74899F;
+}
+
+#content-body > div > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul,
+#content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul,
+#content-body > div > div > div > ul,
+body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.d-none.d-sm-none.d-md-block.m-auto > div > form > div.search-input-container > div > div > div,
+body > header > div > div > div.navbar-collapse.collapse > ul > li.header-new.dropdown.show > div {
+    background-color: #1f2228;
+    border: 2px solid #2B8992;
+    color: #74899F;
+}
+
+#content-body > div > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul > li > a:hover,
+#content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul > li > a:hover,
+#content-body > div > div > div > ul > li > a:hover,
+body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.d-none.d-sm-none.d-md-block.m-auto > div > form > div.search-input-container > div.search-input-wrap > div.dropdown.show > div.dropdown-menu.dropdown-select.show > div.dropdown-content > ul > li > a:hover,
+body > header > div > div > div.navbar-collapse.collapse > ul > li.header-new.dropdown.show > div > ul > li > a:hover {
+    background-color: #232930;
+}
+
+#content-body > div > section > div.content_list > div > div.event-title {
+    color: #2B8992;
+}
+
+#content-body > div > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div.dropdown > ul.dropdown-menu > li.divider,
+#content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul > li.divider,
+body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.d-none.d-sm-none.d-md-block.m-auto > div > form > div.search-input-container > div > div > div > div.dropdown-content > ul > li.separator {
+    border-top: 1px solid #50CBD6;
+}
+
+#content-body > div > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li > a, 
+#content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li > a,
+#content-body > div > ul > li > a {
+    padding-top: 18px;
+}
+
+#content-body > div > div.js-projects-list-holder > div > ul {
+    background-color: #232930;
+    border: none;
+}
+
+#content-body > div > div.js-projects-list-holder > div > ul > li.js-previous-button.page-item > a,
+#content-body > div > div.js-projects-list-holder > div > ul > li.js-next-button.page-item > a,
+#content-body > div > div.js-projects-list-holder > div > ul > li.js-pagination-page.page-item > a,
+#content-body > div.js-projects-list-holder > div > ul > li.page-item.prev > a,
+#content-body > div.js-projects-list-holder > div > ul > li.page-item.next > a,
+#content-body > div > section > div.nav-block.activities > div.controls > a,
+#content-body > div.milestones > ul > li > div > div > div > div {
+    background-color: #232930;
+    border: 1px solid #1f2228;
+    color: #2B8992;
+}
+
+#content-body > div > div.js-projects-list-holder > div > ul > li.disabled.js-previous-button.page-item > a,
+#content-body > div > div.js-projects-list-holder > div > ul > li.disabled.js-next-button.page-item > a {
+    background-color: #232930;
+    border: 1px solid #1f2228;
+    text-decoration: line-through;
+    color: #74899F;
+}
+
+#content-body > div > div.js-projects-list-holder > div > ul > li.js-previous-button.page-item > a:hover,
+#content-body > div > div.js-projects-list-holder > div > ul > li.js-next-button.page-item > a:hover,
+#content-body > div > div.js-projects-list-holder > div > ul > li.js-pagination-page.page-item > a:hover,
+#content-body > div.js-projects-list-holder > div > ul > li.page-item.prev > a:hover,
+#content-body > div.js-projects-list-holder > div > ul > li.page-item.next > a:hover,
+#content-body > div > section > div.nav-block.activities > div.controls > a:hover {
+    background-color: #232930;
+    border: 1px solid #1f2228;
+    text-decoration: underline;
+    color: #50CBD6;
+}
+
+#content-body > div > div.js-projects-list-holder > div > ul > li.active.js-pagination-page.page-item > a {
+    background-color: #232930;
+    border: 1px solid #1f2228;
+    color: #cc3f6c;
+}
+
+#content-body > div > div.js-projects-list-holder > div > ul > li.active.js-pagination-page.page-item > a:hover {
+    background-color: #232930;
+    border: 1px solid #1f2228;
+    text-decoration: underline;
+    color: #e05480;
+}
+
+body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.d-none.d-sm-none.d-md-block.m-auto > div > form {
+    background-color: #2e3640;
+    color: #74899F;
+}
+
+#content-body > div.top-area > ul > li.active > a > span,
+#content-body > div.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs > li.active > a > span {
+    background-color: #1f2228;
+    color: #2B8992;
+}
+
+#content-body > div.top-area > ul > li > a:hover > span,
+#content-body > div.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs > li > a:hover > span {
+    background-color: #1f2228;
+    color: #50CBD6;
+}
+
+#content-body > div.top-area > ul > li > a > span,
+#content-body > div.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs > li > a > span {
+    background-color: #1f2228;
+    color: #74899F;
+}
+
+#content-body > div.milestones > ul > li > div > div.milestone-progress > div.progress  {
+    background-color: #74899F;
+}
+
+#content-body > div.milestones > ul > li > div > div.milestone-progress > div.progress > div.progress-bar.bg-success {
+    border: none;
+}
