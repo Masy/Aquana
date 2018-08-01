@@ -15,9 +15,9 @@ Link hover: #e05480
 html,
 body,
 #content-body,
-#content-body > div.milestones > ul > li {
+#content-body > div.milestones > ul > li{
     background-color: #232930;
-    color: #74899F
+    color: #74899F;
 }
 
 body.ui-blue > .navbar-gitlab,
@@ -47,7 +47,9 @@ body > header > div > div > div.title-container > ul.list-unstyled.navbar-sub-na
 body > header > div > div > div.title-container > ul.list-unstyled.navbar-sub-nav > li.d-none.d-lg-block.d-xl-block.active > a,
 body > header > div > div > div.title-container > ul > li.active > a.admin-icon.qa-admin-area-link,
 body > header > div > div > div.navbar-collapse.collapse > ul.nav.navbar-nav > li > a:hover,
-body > header > div > div > div.navbar-collapse.collapse > ul.nav.navbar-nav > li > a:active {
+body > header > div > div > div.navbar-collapse.collapse > ul.nav.navbar-nav > li > a:active,
+body > header > div > div > div.navbar-collapse.collapse > ul > li.user-counter.active > a,
+body > header > div > div > div.navbar-collapse.collapse > ul > li.user-counter.active > a:hover {
     background-color: #232930;
     color: #50cbd6;
     border: none;
@@ -72,7 +74,11 @@ body > div > div > div.alert-wrapper > nav > div,
 #content-body > div.top-area,
 #content-body > div.js-projects-list-holder > ul > li,
 #content-body > div.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs,
-#content-body > div.snippets-list-holder > ul > li {
+#content-body > div.snippets-list-holder > ul > li,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div.filter-item.inline.labels-filter > div > div > div.dropdown-page-one > div.dropdown-title,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > div > div.dropdown-title,
+#content-body > div.todos-filters > div > form > div > div > div > div.dropdown-title {
     color: #74899F;
     border-bottom: 2px solid #2B8992;
 }
@@ -92,8 +98,23 @@ body > div > div > div.alert-wrapper > nav > div > div > ul > li > h2 > a,
 #content-body > div.snippets-list-holder > ul > li > div.title > a,
 #content-body > div.snippets-list-holder > ul > li > div.snippet-info > a,
 #content-body > div.snippets-list-holder > ul > li > div.snippet-info > span > a,
-#content-body > div.snippets-list-holder > ul > li > div.title > ul > li > a {
+#content-body > div.snippets-list-holder > ul > li > div.title > ul > li > a,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div > div.title.namespace-title > a,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div > div.stats > span.number-subgroups,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div > div.stats > span.number-projects,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div > div.stats > span.number-users,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div > div.stats > span.item-visibility,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul > li > div > div.stats,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul.content-list.group-list-tree > li.group-row.is-open > div.group-row-contents > div.stats,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul.content-list.group-list-tree > li.group-row.is-open > ul.content-list.group-list-tree > li.group-row > div.group-row-contents > div.stats,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul > li > div > div.title.namespace-title > a,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul > li > ul > li > div > div.title.namespace-title > a,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div.issue-main-info > div.merge-request-title.title > span > a,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div.issue-main-info > div.issuable-info > span.issuable-authored.d-none.d-sm-inline-block > a > span,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div.issue-main-info > div.issuable-info > span.issuable-milestone.d-none.d-sm-inline-block > a,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div.issuable-meta > ul > li.issuable-comments.d-none.d-sm-block > a{
     color: #cc3f6c;
+    opacity: 1.0;
 }
 
 body > div > div > div.alert-wrapper > nav > div > div > ul > li > h2 > a:hover,
@@ -107,8 +128,23 @@ body > div > div > div.alert-wrapper > nav > div > div > ul > li > h2 > a:hover,
 #content-body > div.js-projects-list-holder > ul > li > div.project-details > h3 > a:hover > span > span.namespace-name,
 #content-body > div.js-projects-list-holder > ul > li > div.project-details > h3 > a:hover > span > span.project-name,
 #content-body > div.snippets-list-holder > ul > li > div.title > a:hover,
-#content-body > div.snippets-list-holder > ul > li > div.title > ul > li > a:hover {
+#content-body > div.snippets-list-holder > ul > li > div.title > ul > li > a:hover,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div > div.title.namespace-title > a:hover,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div > div.stats > span.number-subgroups:hover,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div > div.stats > span.number-projects:hover,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div > div.stats > span.number-users:hover,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div > div.stats > span.item-visibility:hover,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul > li > div > div.stats > span:hover,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul.content-list.group-list-tree > li.group-row.is-open > div.group-row-contents > div.stats > span:hover,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul.content-list.group-list-tree > li.group-row.is-open > ul.content-list.group-list-tree > li.group-row > div.group-row-contents > div.stats > span:hover,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul > li > div > div.title.namespace-title > a:hover,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul > li > ul > li > div > div.title.namespace-title > a:hover,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div.issue-main-info > div.merge-request-title.title > span > a:hover,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div.issue-main-info > div.issuable-info > span.issuable-authored.d-none.d-sm-inline-block > a:hover > span,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div.issue-main-info > div.issuable-info > span.issuable-milestone.d-none.d-sm-inline-block > a:hover,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div.issuable-meta > ul > li.issuable-comments.d-none.d-sm-block > a:hover {
     text-decoration: underline;
+    opacity: 1.0;
     color: #e05480;
 }
 
@@ -139,7 +175,23 @@ body > div > div > div.alert-wrapper > nav > div > div > ul > li > h2 > a:hover,
 #content-body > div > div > div > button > span,
 #content-body > div > div > div > ul > li > a,
 body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.d-none.d-sm-none.d-md-block.m-auto > div > form > div.search-input-container > div.search-input-wrap > div.dropdown.show > div.dropdown-menu.dropdown-select.show > div.dropdown-content > ul > li > a,
-body > header > div > div > div.navbar-collapse.collapse > ul > li.header-new.dropdown.show > div > ul > li > a {
+body > header > div > div > div.navbar-collapse.collapse > ul > li.header-new.dropdown.show > div > ul > li > a,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > div,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div > div,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul.content-list.group-list-tree > li.group-row.is-open > ul.content-list.group-list-tree > li.group-row > div.group-row-contents > div.description,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul > li > div > div.description,
+#content-body > div.explore-groups.landing.content-block.js-explore-groups-landing.hide > div.inner-content > p,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div.float-right > div > ul > li > a,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > div > div.dropdown-page-one > div.dropdown-content > ul > li > a,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > div > div.dropdown-content > ul > li > a,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div.issuable-meta > div > span,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div.issue-main-info > div.issuable-info > span.issuable-reference,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div.issue-main-info > div.issuable-info > span.issuable-authored.d-none.d-sm-inline-block,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div.issue-main-info > div.issuable-info > span.issuable-milestone.d-none.d-sm-inline-block > a > i,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > button > i,
+#content-body > div.todos-filters > div > form > div > div > div > div.dropdown-content > ul > li > a,
+#content-body > div.todos-filters > div > form > div > div > ul > li > a,
+body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.header-user.dropdown.show > div > ul > li > a{
     color: #74899F;
 }
 
@@ -182,25 +234,40 @@ body > header > div > div > div.navbar-collapse.collapse > ul > li.header-new.dr
     border-bottom: 2px solid #50cbd6
 }
 
+/* Role labels */
 #content-body > div > div.js-projects-list-holder > ul > li > div.project-details > h3 > span,
-#content-body > div.js-projects-list-holder > ul > li > div.project-details > h3 > span{
+#content-body > div.js-projects-list-holder > ul > li > div.project-details > h3 > span,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div > div.title.namespace-title > span{
     color: #50CBD6;
     border: 2px solid #2B8992
 }
 
+/* Input fields */
 #project-filter-form-field,
 #sort-projects-dropdown,
-#content-body > div> div > div > button {
+#content-body > div> div > div > button,
+#group-filter-form-field,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > button,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div.filter-item.inline.labels-filter > div > div > div.dropdown-page-one > div.dropdown-input > input,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > div > div.dropdown-input > input,
+#content-body > div.todos-filters > div > form > div > div > div > div.dropdown-input > input{
     background-color: #232930;
     border: 2px solid #1f2228;
     color: #74899F;
 }
 
+/* Dropdown list*/
 #content-body > div > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul,
 #content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul,
 #content-body > div > div > div > ul,
 body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.d-none.d-sm-none.d-md-block.m-auto > div > form > div.search-input-container > div > div > div,
-body > header > div > div > div.navbar-collapse.collapse > ul > li.header-new.dropdown.show > div {
+body > header > div > div > div.navbar-collapse.collapse > ul > li.header-new.dropdown.show > div,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > div,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div.float-right > div > ul,
+#content-body > div.todos-filters > div > form > div > div > button,
+#content-body > div.todos-filters > div > form > div > div > div,
+#content-body > div.todos-filters > div > form > div > div > ul,
+body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.header-user.dropdown.show > div{
     background-color: #1f2228;
     border: 2px solid #2B8992;
     color: #74899F;
@@ -210,7 +277,13 @@ body > header > div > div > div.navbar-collapse.collapse > ul > li.header-new.dr
 #content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul > li > a:hover,
 #content-body > div > div > div > ul > li > a:hover,
 body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.d-none.d-sm-none.d-md-block.m-auto > div > form > div.search-input-container > div.search-input-wrap > div.dropdown.show > div.dropdown-menu.dropdown-select.show > div.dropdown-content > ul > li > a:hover,
-body > header > div > div > div.navbar-collapse.collapse > ul > li.header-new.dropdown.show > div > ul > li > a:hover {
+body > header > div > div > div.navbar-collapse.collapse > ul > li.header-new.dropdown.show > div > ul > li > a:hover,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div.float-right > div > ul > li > a:hover,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > div > div.dropdown-page-one > div.dropdown-content > ul > li > a:hover,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > div > div.dropdown-content > ul > li > a:hover,
+#content-body > div.todos-filters > div > form > div > div > div > div.dropdown-content > ul > li > a:hover,
+#content-body > div.todos-filters > div > form > div > div > ul > li > a:hover,
+body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.header-user.dropdown.show > div > ul > li > a:hover{
     background-color: #232930;
 }
 
@@ -218,9 +291,14 @@ body > header > div > div > div.navbar-collapse.collapse > ul > li.header-new.dr
     color: #2B8992;
 }
 
+/* Divider */
 #content-body > div > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div.dropdown > ul.dropdown-menu > li.divider,
 #content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul > li.divider,
-body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.d-none.d-sm-none.d-md-block.m-auto > div > form > div.search-input-container > div > div > div > div.dropdown-content > ul > li.separator {
+body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.d-none.d-sm-none.d-md-block.m-auto > div > form > div.search-input-container > div > div > div > div.dropdown-content > ul > li.separator,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > div > div.dropdown-page-one > div.dropdown-content > ul > li.divider,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > div > div.dropdown-content > ul > li.divider,
+#content-body > div.todos-filters > div > form > div > div > div > div.dropdown-content > ul > li.divider,
+body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.header-user.dropdown.show > div > ul > li.divider{
     border-top: 1px solid #50CBD6;
 }
 
@@ -230,50 +308,104 @@ body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.d-no
     padding-top: 18px;
 }
 
-#content-body > div > div.js-projects-list-holder > div > ul {
+#content-body > div > div.js-projects-list-holder > div > ul,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul {
     background-color: #232930;
     border: none;
 }
 
+/* Buttons*/
 #content-body > div > div.js-projects-list-holder > div > ul > li.js-previous-button.page-item > a,
 #content-body > div > div.js-projects-list-holder > div > ul > li.js-next-button.page-item > a,
 #content-body > div > div.js-projects-list-holder > div > ul > li.js-pagination-page.page-item > a,
 #content-body > div.js-projects-list-holder > div > ul > li.page-item.prev > a,
 #content-body > div.js-projects-list-holder > div > ul > li.page-item.next > a,
 #content-body > div > section > div.nav-block.activities > div.controls > a,
-#content-body > div.milestones > ul > li > div > div > div > div {
+#content-body > div.milestones > ul > li > div > div > div > div,
+#content-body > div.snippets-list-holder > div > ul > li.js-next-button.page-item > a,
+#content-body > div.snippets-list-holder > div > ul > li.js-previous-button.page-item > a,
+#content-body > div.snippets-list-holder > div > ul > li.d-none.d-md-block.js-pagination-page.page-item > a,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div > div.controls > a,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul > li > div > div.controls > a,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul.content-list.group-list-tree > li.group-row.is-open > ul.content-list.group-list-tree > li.group-row > div.group-row-contents > div.controls > a,
+#content-body > div.gl-pagination.prepend-top-default > ul > li.js-previous-button.page-item > a,
+#content-body > div.gl-pagination.prepend-top-default > ul > li.js-next-button.page-item > a,
+#content-body > div.gl-pagination.prepend-top-default > ul > li > a,
+#content-body > div.top-area > div > div > a.btn.btn-loading.js-todos-mark-all,
+#content-body > div.top-area > div > a,
+#content-body > div.js-todos-all > div.js-todos-list-container > div > div > ul > li > div.todo-actions > a.btn,
+#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.d-none.d-md-block.js-pagination-page.page-item > a,
+#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.js-previous-button.page-item > a,
+#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.js-next-button.page-item > a,
+#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.page-item.disabled.d-none.d-md-block > a,
+#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.page-item.js-last-button > a,
+#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.page-item.js-first-button > a {
     background-color: #232930;
     border: 1px solid #1f2228;
     color: #2B8992;
 }
 
+/* Disabled Buttons */
 #content-body > div > div.js-projects-list-holder > div > ul > li.disabled.js-previous-button.page-item > a,
-#content-body > div > div.js-projects-list-holder > div > ul > li.disabled.js-next-button.page-item > a {
+#content-body > div > div.js-projects-list-holder > div > ul > li.disabled.js-next-button.page-item > a,
+#content-body > div.snippets-list-holder > div > ul > li.disabled.js-previous-button.page-item > a,
+#content-body > div.snippets-list-holder > div > ul > li.disabled.js-next-button.page-item > a,
+#content-body > div.gl-pagination.prepend-top-default > ul > li.disabled.js-previous-button.page-item > a,
+#content-body > div.gl-pagination.prepend-top-default > ul > li.disabled.js-next-button.page-item > a,
+#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.disabled.js-previous-button.page-item > a,
+#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.disabled.js-next-button.page-item > a{
     background-color: #232930;
     border: 1px solid #1f2228;
     text-decoration: line-through;
     color: #74899F;
 }
 
+/* Hovered Buttons */
 #content-body > div > div.js-projects-list-holder > div > ul > li.js-previous-button.page-item > a:hover,
 #content-body > div > div.js-projects-list-holder > div > ul > li.js-next-button.page-item > a:hover,
 #content-body > div > div.js-projects-list-holder > div > ul > li.js-pagination-page.page-item > a:hover,
 #content-body > div.js-projects-list-holder > div > ul > li.page-item.prev > a:hover,
 #content-body > div.js-projects-list-holder > div > ul > li.page-item.next > a:hover,
-#content-body > div > section > div.nav-block.activities > div.controls > a:hover {
+#content-body > div > section > div.nav-block.activities > div.controls > a:hover,
+#content-body > div.snippets-list-holder > div > ul > li.js-next-button.page-item > a:hover,
+#content-body > div.snippets-list-holder > div > ul > li.js-previous-button.page-item > a:hover,
+#content-body > div.snippets-list-holder > div > ul > li.d-none.d-md-block.js-pagination-page.page-item > a:hover,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div > div.controls > a:hover,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul > li > div > div.controls > a:hover,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul.content-list.group-list-tree > li.group-row.is-open > ul.content-list.group-list-tree > li.group-row > div.group-row-contents > div.controls > a:hover,
+#content-body > div.gl-pagination.prepend-top-default > ul > li.js-previous-button.page-item > a:hover,
+#content-body > div.gl-pagination.prepend-top-default > ul > li.js-next-button.page-item > a:hover,
+#content-body > div.gl-pagination.prepend-top-default > ul > li > a:hover,
+#content-body > div.top-area > div > div > a.btn.btn-loading.js-todos-mark-all:hover,
+#content-body > div.top-area > div > a:hover,
+#content-body > div.js-todos-all > div.js-todos-list-container > div > div > ul > li > div.todo-actions > a.btn:hover,
+#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.d-none.d-md-block.js-pagination-page.page-item > a:hover,
+#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.js-previous-button.page-item > a:hover,
+#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.js-next-button.page-item > a:hover,
+#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.page-item.disabled.d-none.d-md-block > a:hover,
+#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.page-item.js-last-button > a:hover,
+#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.page-item.js-first-button > a:hover {
     background-color: #232930;
     border: 1px solid #1f2228;
     text-decoration: underline;
     color: #50CBD6;
 }
 
-#content-body > div > div.js-projects-list-holder > div > ul > li.active.js-pagination-page.page-item > a {
+/* Active buttons */
+#content-body > div > div.js-projects-list-holder > div > ul > li.active.js-pagination-page.page-item > a,
+#content-body > div.snippets-list-holder > div > ul > li.active.js-pagination-page.page-item > a,
+#content-body > div.gl-pagination.prepend-top-default > ul > li.active.js-pagination-page.page-item > a,
+#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.active.js-pagination-page.page-item > a {
     background-color: #232930;
     border: 1px solid #1f2228;
     color: #cc3f6c;
 }
 
-#content-body > div > div.js-projects-list-holder > div > ul > li.active.js-pagination-page.page-item > a:hover {
+/* Active hovered Buttons */
+#content-body > div > div.js-projects-list-holder > div > ul > li.active.js-pagination-page.page-item > a:hover,
+#content-body > div.snippets-list-holder > div > ul > li.active.js-pagination-page.page-item > a:hover,
+#content-body > div.gl-pagination.prepend-top-default > ul > li.active.js-pagination-page.page-item > a:hover,
+#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.active.js-pagination-page.page-item > a:hover {
     background-color: #232930;
     border: 1px solid #1f2228;
     text-decoration: underline;
@@ -285,28 +417,150 @@ body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.d-no
     color: #74899F;
 }
 
-#content-body > div.top-area > ul > li.active > a > span,
+#content-body > div.top-area > ul > li.active > a > span.badge-pill,
 #content-body > div.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs > li.active > a > span {
     background-color: #1f2228;
     color: #2B8992;
 }
 
-#content-body > div.top-area > ul > li > a:hover > span,
+#content-body > div.top-area > ul > li > a:hover > span.badge-pill,
 #content-body > div.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs > li > a:hover > span {
     background-color: #1f2228;
     color: #50CBD6;
 }
 
-#content-body > div.top-area > ul > li > a > span,
+#content-body > div.top-area > ul > li > a > span.badge-pill,
 #content-body > div.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs > li > a > span {
     background-color: #1f2228;
     color: #74899F;
 }
 
+/* Progress bar success empty */
 #content-body > div.milestones > ul > li > div > div.milestone-progress > div.progress  {
     background-color: #74899F;
 }
 
+/* Progress bar success full */
 #content-body > div.milestones > ul > li > div > div.milestone-progress > div.progress > div.progress-bar.bg-success {
     border: none;
 }
+
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div.group-row-contents:hover,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div:hover,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul.content-list.group-list-tree > li.group-row.is-open > ul.content-list.group-list-tree > li.group-row > div:hover,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul > li > div:hover,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul > li > ul > li > div:hover{
+    background-color: #2e3640;
+}
+
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul.content-list.group-list-tree > li.group-row,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul.content-list.group-list-tree > li.group-row.is-open > ul.content-list.group-list-tree > li.group-row {
+    border-top: 2px solid #2B8992;
+    border-bottom: none;
+    color: #74899F;
+}
+
+/* Tree branching */
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul::before,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul > li > ul::before {
+    border-left: 2px solid #74899F;
+}
+
+/*  Tree Branching */
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul > li::before,
+#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul > li > ul > li::before {
+    background-color: #74899F;
+    border-top: 1px solid #74899F;
+}
+
+#content-body > div.explore-groups.landing.content-block.js-explore-groups-landing.hide {
+    background-color: #2e3640;
+    border: 1px solid #1f2228;
+}
+
+/* Close Button */
+#content-body > div.explore-groups.landing.content-block.js-explore-groups-landing.hide > button,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div.filter-item.inline.labels-filter > div > div > div.dropdown-page-one > div.dropdown-title > button,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > div > div.dropdown-title > button,
+#content-body > div.todos-filters > div > form > div > div > div > div.dropdown-title > button {
+    color: #2B8992;
+}
+
+/* Close Button Hover */
+#content-body > div.explore-groups.landing.content-block.js-explore-groups-landing.hide > button:hover,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div.filter-item.inline.labels-filter > div > div > div.dropdown-page-one > div.dropdown-title > button:hover,
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > div > div.dropdown-title > button:hover,
+#content-body > div.todos-filters > div > form > div > div > div > div.dropdown-title > button:hover {
+    color: #50CBD6;
+}
+
+
+/* Issues/Milestones/ToDos begin */
+#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block,
+#content-body > div.todos-filters > div{
+    background-color: #1f2228;
+    border:none
+}
+
+#content-body > div.card.card-small.card-without-border > ul > li,
+#content-body > div.js-todos-all > div.js-todos-list-container > div > div > ul > li {
+    background-color: #232930;
+    border-top: 1px solid #1f2228;
+    border-bottom: 1px solid #1f2228;
+    color: #74899F;
+}
+
+#content-body > div.card.card-small.card-without-border > ul > li > div > div > div.issuable-meta > div,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div > div.issue-main-info > div.issuable-info > span,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div > div.issue-main-info > div.issuable-info > span.issuable-milestone.d-none.d-sm-inline-block > a > i {
+    color: #74899F
+}
+
+#content-body > div.card.card-small.card-without-border > ul > li > div > div > div.issue-main-info > div.issue-title.title > span > a,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div > div.issue-main-info > div.issuable-info > span.issuable-authored.d-none.d-sm-inline-block > a > span,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div > div.issue-main-info > div.issuable-info > span.issuable-milestone.d-none.d-sm-inline-block > a,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div > div.issuable-meta > ul > li.issuable-mr.d-none.d-sm-block.has-tooltip,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div > div.issuable-meta > ul > li.issuable-comments.d-none.d-sm-block > a,
+#content-body > div.js-todos-all > div.js-todos-list-container > div > div > ul > li > div.todo-item.todo-block > div.todo-title.title > div.title-item.author-name > a,
+#content-body > div.js-todos-all > div.js-todos-list-container > div > div > ul > li > div.todo-item.todo-block > div.todo-title.title > div.title-item.todo-label > a,
+#content-body > div.js-todos-all > div.js-todos-list-container > div > div > ul > li > div.todo-item.todo-block > div.todo-body > div > div > p {
+    color: #cc3f6c;
+    opacity: 1.0;
+}
+
+#content-body > div.card.card-small.card-without-border > ul > li > div > div > div.issue-main-info > div.issue-title.title > span > a:hover,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div > div.issue-main-info > div.issuable-info > span.issuable-authored.d-none.d-sm-inline-block > a:hover > span,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div > div.issue-main-info > div.issuable-info > span.issuable-milestone.d-none.d-sm-inline-block > a:hover,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div > div.issuable-meta > ul > li.issuable-mr.d-none.d-sm-block.has-tooltip:hover,
+#content-body > div.card.card-small.card-without-border > ul > li > div > div > div.issuable-meta > ul > li.issuable-comments.d-none.d-sm-block > a:hover,
+#content-body > div.js-todos-all > div.js-todos-list-container > div > div > ul > li > div.todo-item.todo-block > div.todo-title.title > div.title-item.author-name > a:hover,
+#content-body > div.js-todos-all > div.js-todos-list-container > div > div > ul > li > div.todo-item.todo-block > div.todo-title.title > div.title-item.todo-label > a:hover,
+#content-body > div.js-todos-all > div.js-todos-list-container > div > div > ul > li > div.todo-item.todo-block > div.todo-body > div > div > p:hover {
+    text-decoration: underline;
+    opacity: 1.0;
+    color: #e05480;
+}
+
+#content-body > div.card.card-small.card-without-border > ul > li > div > div > div.issuable-meta > ul > li.issuable-status {
+    color: #50CBD6;
+}
+
+#content-body > div.js-todos-all > div.js-todos-list-container > div > div > ul > li > div.todo-item.todo-block > div.todo-body > div > div > p > a {
+    color: #cc3f6c;
+    opacity: 1.0;
+    background-color: #2e3640;
+}
+
+#content-body > div.js-todos-all > div.js-todos-list-container > div > div > ul > li > div.todo-item.todo-block > div.todo-body > div > div > p > a:hover {
+    text-decoration: underline;
+    color: #e05480;
+    opacity: 1.0;
+    background-color: #2e3640;
+}
+
+#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul {
+    background-color: #232930;
+    border: none;
+}
+
+/* Issues/Milestones/ToDos end */
