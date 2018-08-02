@@ -15,44 +15,44 @@ Link hover: #e05480
 html,
 body,
 #content-body,
-#content-body > div.milestones > ul > li{
-    background-color: #232930;
-    color: #74899F;
+.milestones > ul > li {
+    background-color: #232930 !important;
+    color: #74899F !important;
 }
 
-body.ui-blue > .navbar-gitlab,
-#content-body > div.milestones {
-    background-color: #1f2228;
-    border: none;
+.navbar-gitlab,
+.milestones {
+    background-color: #1f2228 !important;
+    border: none !important;
 }
 
 #logo,
 #nav-projects-dropdown > button,
 #nav-groups-dropdown > button,
-body > header > div > div > div.title-container > ul > li > a,
-body > header > div > div > div.navbar-collapse.collapse > ul > li > a {
-    background-color: #1f2228;
-    color: #2B8992;
-    border: none;
+.title-container > ul > li > a,
+.navbar-collapse.collapse > ul > li > a{
+    background-color: #1f2228 !important;
+    color: #2B8992 !important;
+    border: none !important;
 }
 
 #logo:hover,
 #logo:active,
-#nav-projects-dropdown > button:hover,
-#nav-projects-dropdown > button:active,
 #nav-groups-dropdown > button:hover,
-body > header > div > div > div.title-container > ul.list-unstyled.navbar-sub-nav > li.d-none.d-lg-block.d-xl-block > a:hover,
-body > header > div > div > div.title-container > ul.list-unstyled.navbar-sub-nav > li > a:active,
-body > header > div > div > div.title-container > ul.list-unstyled.navbar-sub-nav > li > a.admin-icon.qa-admin-area-link:hover,
-body > header > div > div > div.title-container > ul.list-unstyled.navbar-sub-nav > li.d-none.d-lg-block.d-xl-block.active > a,
-body > header > div > div > div.title-container > ul > li.active > a.admin-icon.qa-admin-area-link,
-body > header > div > div > div.navbar-collapse.collapse > ul.nav.navbar-nav > li > a:hover,
-body > header > div > div > div.navbar-collapse.collapse > ul.nav.navbar-nav > li > a:active,
-body > header > div > div > div.navbar-collapse.collapse > ul > li.user-counter.active > a,
-body > header > div > div > div.navbar-collapse.collapse > ul > li.user-counter.active > a:hover {
-    background-color: #232930;
-    color: #50cbd6;
-    border: none;
+#nav-projects-dropdown > button:hover,
+button:hover,
+.list-unstyled.navbar-sub-nav > li.d-none.d-lg-block.d-xl-block > a:hover,
+.list-unstyled.navbar-sub-nav > li > a:active,
+.list-unstyled.navbar-sub-nav > li > a.admin-icon.qa-admin-area-link:hover,
+.list-unstyled.navbar-sub-nav > li.d-none.d-lg-block.d-xl-block.active > a,
+.active > a.admin-icon.qa-admin-area-link,
+.navbar-collapse.collapse > ul > li > a:hover,
+.navbar-collapse.collapse > ul > li > a:active,
+.navbar-collapse.collapse > ul > li.user-counter.active > a,
+.navbar-collapse.collapse > ul > li.user-counter.active > a:hover {
+    background-color: #232930 !important;
+    color: #50cbd6 !important;
+    border: none !important;
 }
 
 body > header > div > div > div.navbar-collapse.collapse > ul > li.header-new.dropdown.show > a.header-new-dropdown-toggle.has-tooltip.qa-new-menu-toggle,
@@ -63,22 +63,18 @@ body > header > div > div > div.navbar-collapse.collapse > ul > li.header-new.dr
 }
 
 
-body > div > div > div.alert-wrapper > nav > div,
-#content-body > div > div.nav-block > ul,
-#content-body > div > div.js-projects-list-holder > ul > li,
-#content-body > div > div.row-content-block.top-block.d-none.d-sm-block.white,
-#content-body > div > div.top-area,
-#content-body > div > section > div.content_list > div,
-#content-body > div > section > div.nav-block.activities,
-#content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs,
-#content-body > div.top-area,
-#content-body > div.js-projects-list-holder > ul > li,
-#content-body > div.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs,
-#content-body > div.snippets-list-holder > ul > li,
-#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li,
-#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div.filter-item.inline.labels-filter > div > div > div.dropdown-page-one > div.dropdown-title,
-#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > div > div.dropdown-title,
-#content-body > div.todos-filters > div > form > div > div > div > div.dropdown-title {
+.alert-wrapper > nav > div,
+.nav-block > ul,
+.js-projects-list-holder > ul > li,
+.row-content-block.top-block.d-none.d-sm-block.white,
+.top-area,
+.content_list > div,
+.nav-block.activities,
+.top-area.scrolling-tabs-container.inner-page-scroll-tabs,
+.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs,
+.snippets-list-holder > ul > li,
+.groups-list-tree-container > ul > li,
+.dropdown-title {
     color: #74899F;
     border-bottom: 2px solid #2B8992;
 }
@@ -155,83 +151,66 @@ body > div > div > div.alert-wrapper > nav > div > div > ul > li > h2 > a:hover,
 #comments_event_filter,
 #team_event_filter,
 #sort-projects-dropdown > i,
-#content-body > div.snippets-list-holder > ul > li > div.title > ul > li > i,
-#content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li > a,
-#content-body > div.js-projects-list-holder > div,
-#content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul > li.dropdown-header,
-#content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul > li > a,
-#content-body > div > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li > a,
-#content-body > div > div.nav-block > ul > li > a,
-#content-body > div > div.top-area > ul > li > a,
-#content-body > div > ul > li > a,
-#content-body > div > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul > li.dropdown-header,
-#content-body > div > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul > li > a,
-#content-body > div > section > div.content_list > div > div.event-body > ul > li > div,
-#content-body > div > section > div.content_list > div > div.event-body > ul > li.commits-stat > span,
-#content-body > div > section > div.content_list > div > div.event-body > ul > li.commits-stat > a,
-#content-body > div > div.js-projects-list-holder > div,
-#content-body > div > div > div > button > i.fa.fa-chevron-down,
-#content-body > div > div > div > button > i.fa.fa-globe,
-#content-body > div > div > div > button > span,
 #content-body > div > div > div > ul > li > a,
-body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.d-none.d-sm-none.d-md-block.m-auto > div > form > div.search-input-container > div.search-input-wrap > div.dropdown.show > div.dropdown-menu.dropdown-select.show > div.dropdown-content > ul > li > a,
-body > header > div > div > div.navbar-collapse.collapse > ul > li.header-new.dropdown.show > div > ul > li > a,
-#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > div,
-#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div > div,
-#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul.content-list.group-list-tree > li.group-row.is-open > ul.content-list.group-list-tree > li.group-row > div.group-row-contents > div.description,
-#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul > li > div > div.description,
-#content-body > div.explore-groups.landing.content-block.js-explore-groups-landing.hide > div.inner-content > p,
-#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div.float-right > div > ul > li > a,
-#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > div > div.dropdown-page-one > div.dropdown-content > ul > li > a,
-#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > div > div.dropdown-content > ul > li > a,
-#content-body > div.card.card-small.card-without-border > ul > li > div > div.issuable-meta > div > span,
-#content-body > div.card.card-small.card-without-border > ul > li > div > div.issue-main-info > div.issuable-info > span.issuable-reference,
-#content-body > div.card.card-small.card-without-border > ul > li > div > div.issue-main-info > div.issuable-info > span.issuable-authored.d-none.d-sm-inline-block,
-#content-body > div.card.card-small.card-without-border > ul > li > div > div.issue-main-info > div.issuable-info > span.issuable-milestone.d-none.d-sm-inline-block > a > i,
-#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > button > i,
-#content-body > div.todos-filters > div > form > div > div > div > div.dropdown-content > ul > li > a,
-#content-body > div.todos-filters > div > form > div > div > ul > li > a,
-body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.header-user.dropdown.show > div > ul > li > a{
-    color: #74899F;
-}
-
-#content-body > div.milestones > ul > li > div > div.milestone-progress > div.float-lg-right.light,
-#content-body > div.milestones > ul > li > div > div > div.milestone-range.append-bottom-5,
+#content-body > div > ul > li > a,
+.title > ul > li > i,
+.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li > a,
+.js-projects-list-holder > div,
+.nav-controls > div > ul > li > a,
+.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li > a,
+.nav-block > ul > li > a,
+.top-area > ul > li > a,
+.dropdown-header,
+.event-body > ul > li > div,
+.commits-stat > span,
+.commits-stat > a,
+.header-new.dropdown.show > div > ul > li > a,
+.groups-list-tree-container > div,
+.groups-list-tree-container > ul > li > div > div,
+.description,
+.inner-content > p,
+.float-right > div > ul > li > a,
+.dropdown-content > ul > li > a,
+.issuable-meta > div > span,
+.issuable-info > span.issuable-reference,
+.issuable-info > span.issuable-authored.d-none.d-sm-inline-block,
+.issuable-info > span.issuable-milestone.d-none.d-sm-inline-block > a > i,
+.issues-details-filters.row-content-block.second-block > form > div > div > div > button > i,
+.todos-filters > div > form > div > div > ul > li > a,
+.nav-item.header-user.dropdown.show > div > ul > li > a,
+button,
+button > i.fa.fa-chevron-down,
+button > i.fa.fa-globe,
+button > span,
 #content-body > div.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs > li > a{
-    color: #2B8992;
+    color: #74899F !important;
 }
 
-#all_event_filter:active,
-#push_event_filter:active,
-#merged_event_filter:active,
-#issue_event_filter:active,
-#comments_event_filter:active,
-#team_event_filter:active,
-#content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li.active > a,
-#content-body > div > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li.active > a,
-#content-body > div > div.nav-block > ul > li.active > a,
-#content-body > div > div.top-area > ul > li.active > a,
-#content-body > div > section > div.nav-block.activities > div.scrolling-tabs-container.inner-page-scroll-tabs.is-smaller.flex-fill > ul > li.active > a.event-filter-link,
+.float-lg-right.light,
+.milestone-range.append-bottom-5,
+.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs > li > a,
+#content-body > div > section > div.content_list > div > div.event-title {
+    color: #2B8992 !important;
+}
+
+.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li.active > a,
+.nav-block > ul > li.active > a,
+.top-area > ul > li.active > a,
 #content-body > div > ul > li.active > a,
-#content-body > div.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs > li.active > a {
-    color: #2B8992;
-    border-bottom: 2px solid #2B8992
+#content-body > div.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs > li.active > a,
+#content-body > div > section > div.nav-block.activities > div.scrolling-tabs-container.inner-page-scroll-tabs.is-smaller.flex-fill > ul > li.active > a{
+    color: #2B8992 !important;
+    border-bottom: 2px solid #2B8992 !important;
 }
 
-#push_event_filter:hover,
-#merged_event_filter:hover,
-#issue_event_filter:hover,
-#comments_event_filter:hover,
-#team_event_filter:hover,
-#content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li > a:hover,
-#content-body > div > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li > a:hover,
-#content-body > div > div.nav-block > ul > li > a:hover,
-#content-body > div > div.top-area > ul > li > a:hover,
-#content-body > div > section > div.nav-block.activities > div.scrolling-tabs-container.inner-page-scroll-tabs.is-smaller.flex-fill > ul > li > a.event-filter-link:hover,
+.top-area.scrolling-tabs-container.inner-page-scroll-tabs > ul > li > a:hover,
+.nav-block > ul > li > a:hover,
+.top-area > ul > li > a:hover,
+#content-body > div > section > div.nav-block.activities > div.scrolling-tabs-container.inner-page-scroll-tabs.is-smaller.flex-fill > ul > li > a:hover,
 #content-body > div > ul > li > a:hover,
-#content-body > div.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs > li > a:hover {
-    color: #50CBD6;
-    border-bottom: 2px solid #50cbd6
+#content-body > div.nav-links.snippet-scope-menu.mobile-separator.nav.nav-tabs > li > a:hover{
+    color: #50CBD6 !important;
+    border-bottom: 2px solid #50cbd6 !important;
 }
 
 /* Role labels */
@@ -247,7 +226,6 @@ body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.head
 #sort-projects-dropdown,
 #content-body > div> div > div > button,
 #group-filter-form-field,
-#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > button,
 #content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div.filter-item.inline.labels-filter > div > div > div.dropdown-page-one > div.dropdown-input > input,
 #content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > div > div.dropdown-input > input,
 #content-body > div.todos-filters > div > form > div > div > div > div.dropdown-input > input{
@@ -257,20 +235,20 @@ body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.head
 }
 
 /* Dropdown list*/
-#content-body > div > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul,
-#content-body > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul,
+.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul,
 #content-body > div > div > div > ul,
-body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.d-none.d-sm-none.d-md-block.m-auto > div > form > div.search-input-container > div > div > div,
-body > header > div > div > div.navbar-collapse.collapse > ul > li.header-new.dropdown.show > div,
-#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div > div > div,
-#content-body > div.issues-filters > div.issues-details-filters.row-content-block.second-block > form > div > div.float-right > div > ul,
-#content-body > div.todos-filters > div > form > div > div > button,
-#content-body > div.todos-filters > div > form > div > div > div,
-#content-body > div.todos-filters > div > form > div > div > ul,
-body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.header-user.dropdown.show > div{
-    background-color: #1f2228;
-    border: 2px solid #2B8992;
-    color: #74899F;
+.navbar-collapse.collapse > ul > li.nav-item.d-none.d-sm-none.d-md-block.m-auto > div > form > div.search-input-container > div > div > div,
+.navbar-collapse.collapse > ul > li.header-new.dropdown.show > div,
+.issues-details-filters.row-content-block.second-block > form > div > div > div > div,
+.issues-details-filters.row-content-block.second-block > form > div > div.float-right > div > ul,
+.todos-filters > div > form > div > div > button,
+.todos-filters > div > form > div > div > div,
+.issues-details-filters.row-content-block.second-block > form > div > div > div > button,
+.todos-filters > div > form > div > div > ul,
+.navbar-collapse.collapse > ul > li.nav-item.header-user.dropdown.show > div {
+    background-color: #1f2228 !important;
+    border: 1px solid #2B8992 !important;
+    color: #74899F !important;
 }
 
 #content-body > div > div.top-area.scrolling-tabs-container.inner-page-scroll-tabs > div.nav-controls > div > ul > li > a:hover,
@@ -285,10 +263,6 @@ body > header > div > div > div.navbar-collapse.collapse > ul > li.header-new.dr
 #content-body > div.todos-filters > div > form > div > div > ul > li > a:hover,
 body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.header-user.dropdown.show > div > ul > li > a:hover{
     background-color: #232930;
-}
-
-#content-body > div > section > div.content_list > div > div.event-title {
-    color: #2B8992;
 }
 
 /* Divider */
@@ -315,101 +289,71 @@ body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.head
 }
 
 /* Buttons*/
-#content-body > div > div.js-projects-list-holder > div > ul > li.js-previous-button.page-item > a,
-#content-body > div > div.js-projects-list-holder > div > ul > li.js-next-button.page-item > a,
-#content-body > div > div.js-projects-list-holder > div > ul > li.js-pagination-page.page-item > a,
-#content-body > div.js-projects-list-holder > div > ul > li.page-item.prev > a,
-#content-body > div.js-projects-list-holder > div > ul > li.page-item.next > a,
-#content-body > div > section > div.nav-block.activities > div.controls > a,
-#content-body > div.milestones > ul > li > div > div > div > div,
-#content-body > div.snippets-list-holder > div > ul > li.js-next-button.page-item > a,
-#content-body > div.snippets-list-holder > div > ul > li.js-previous-button.page-item > a,
-#content-body > div.snippets-list-holder > div > ul > li.d-none.d-md-block.js-pagination-page.page-item > a,
-#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div > div.controls > a,
-#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul > li > div > div.controls > a,
-#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul.content-list.group-list-tree > li.group-row.is-open > ul.content-list.group-list-tree > li.group-row > div.group-row-contents > div.controls > a,
-#content-body > div.gl-pagination.prepend-top-default > ul > li.js-previous-button.page-item > a,
-#content-body > div.gl-pagination.prepend-top-default > ul > li.js-next-button.page-item > a,
-#content-body > div.gl-pagination.prepend-top-default > ul > li > a,
-#content-body > div.top-area > div > div > a.btn.btn-loading.js-todos-mark-all,
-#content-body > div.top-area > div > a,
-#content-body > div.js-todos-all > div.js-todos-list-container > div > div > ul > li > div.todo-actions > a.btn,
-#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.d-none.d-md-block.js-pagination-page.page-item > a,
-#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.js-previous-button.page-item > a,
-#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.js-next-button.page-item > a,
-#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.page-item.disabled.d-none.d-md-block > a,
-#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.page-item.js-last-button > a,
-#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.page-item.js-first-button > a {
-    background-color: #232930;
-    border: 1px solid #1f2228;
-    color: #2B8992;
+.js-previous-button.page-item > a,
+.js-next-button.page-item > a,
+.js-pagination-page.page-item > a,
+.page-item.prev > a,
+.page-item.next > a,
+.nav-block.activities > div.controls > a,
+.milestones > ul > li > div > div > div > div.status-box,
+.js-pagination-page.page-item > a,
+.controls > a,
+.gl-pagination.prepend-top-default > ul > li > a,
+.btn.btn-loading.js-todos-mark-all,
+.top-area > div > a,
+.btn,
+.page-item.disabled.d-none.d-md-block > a,
+.page-item.js-last-button > a,
+.page-item.js-first-button > a {
+    background-color: #232930 !important;
+    border: 1px solid #1f2228 !important;
+    color: #2B8992 !important;
 }
 
 /* Disabled Buttons */
-#content-body > div > div.js-projects-list-holder > div > ul > li.disabled.js-previous-button.page-item > a,
-#content-body > div > div.js-projects-list-holder > div > ul > li.disabled.js-next-button.page-item > a,
-#content-body > div.snippets-list-holder > div > ul > li.disabled.js-previous-button.page-item > a,
-#content-body > div.snippets-list-holder > div > ul > li.disabled.js-next-button.page-item > a,
-#content-body > div.gl-pagination.prepend-top-default > ul > li.disabled.js-previous-button.page-item > a,
-#content-body > div.gl-pagination.prepend-top-default > ul > li.disabled.js-next-button.page-item > a,
-#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.disabled.js-previous-button.page-item > a,
-#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.disabled.js-next-button.page-item > a{
-    background-color: #232930;
-    border: 1px solid #1f2228;
-    text-decoration: line-through;
-    color: #74899F;
+.disabled.js-previous-button.page-item > a,
+.disabled.js-next-button.page-item > a {
+    background-color: #232930 !important;
+    border: 1px solid #1f2228 !important;
+    text-decoration: line-through !important;
+    color: #74899F !important;
 }
 
 /* Hovered Buttons */
-#content-body > div > div.js-projects-list-holder > div > ul > li.js-previous-button.page-item > a:hover,
-#content-body > div > div.js-projects-list-holder > div > ul > li.js-next-button.page-item > a:hover,
-#content-body > div > div.js-projects-list-holder > div > ul > li.js-pagination-page.page-item > a:hover,
-#content-body > div.js-projects-list-holder > div > ul > li.page-item.prev > a:hover,
-#content-body > div.js-projects-list-holder > div > ul > li.page-item.next > a:hover,
-#content-body > div > section > div.nav-block.activities > div.controls > a:hover,
-#content-body > div.snippets-list-holder > div > ul > li.js-next-button.page-item > a:hover,
-#content-body > div.snippets-list-holder > div > ul > li.js-previous-button.page-item > a:hover,
-#content-body > div.snippets-list-holder > div > ul > li.d-none.d-md-block.js-pagination-page.page-item > a:hover,
-#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > div > div.controls > a:hover,
-#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul > li > div > div.controls > a:hover,
-#content-body > div.js-groups-list-holder > div > div.groups-list-tree-container > ul > li > ul.content-list.group-list-tree > li.group-row.is-open > ul.content-list.group-list-tree > li.group-row > div.group-row-contents > div.controls > a:hover,
-#content-body > div.gl-pagination.prepend-top-default > ul > li.js-previous-button.page-item > a:hover,
-#content-body > div.gl-pagination.prepend-top-default > ul > li.js-next-button.page-item > a:hover,
-#content-body > div.gl-pagination.prepend-top-default > ul > li > a:hover,
-#content-body > div.top-area > div > div > a.btn.btn-loading.js-todos-mark-all:hover,
-#content-body > div.top-area > div > a:hover,
-#content-body > div.js-todos-all > div.js-todos-list-container > div > div > ul > li > div.todo-actions > a.btn:hover,
-#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.d-none.d-md-block.js-pagination-page.page-item > a:hover,
-#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.js-previous-button.page-item > a:hover,
-#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.js-next-button.page-item > a:hover,
-#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.page-item.disabled.d-none.d-md-block > a:hover,
-#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.page-item.js-last-button > a:hover,
-#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.page-item.js-first-button > a:hover {
-    background-color: #232930;
-    border: 1px solid #1f2228;
-    text-decoration: underline;
-    color: #50CBD6;
+.js-previous-button.page-item > a:hover,
+.js-next-button.page-item > a:hover,
+.js-pagination-page.page-item > a:hover,
+.page-item.prev > a:hover,
+.page-item.next > a:hover,
+.d-none.d-md-block.js-pagination-page.page-item > a:hover,
+.controls > a:hover,
+.gl-pagination.prepend-top-default > ul > li > a:hover,
+.btn.btn-loading.js-todos-mark-all:hover,
+.top-area > div > a:hover,
+.btn:hover,
+.page-item.disabled.d-none.d-md-block > a:hover,
+.page-item.js-last-button > a:hover,
+.page-item.js-first-button > a:hover,
+.nav-block.activities > div.controls > a.btn.rss-btn:hover {
+    background-color: #232930 !important;
+    border: 1px solid #1f2228 !important;
+    text-decoration: underline !important;
+    color: #50CBD6 !important;
 }
 
 /* Active buttons */
-#content-body > div > div.js-projects-list-holder > div > ul > li.active.js-pagination-page.page-item > a,
-#content-body > div.snippets-list-holder > div > ul > li.active.js-pagination-page.page-item > a,
-#content-body > div.gl-pagination.prepend-top-default > ul > li.active.js-pagination-page.page-item > a,
-#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.active.js-pagination-page.page-item > a {
-    background-color: #232930;
-    border: 1px solid #1f2228;
-    color: #cc3f6c;
+.active.js-pagination-page.page-item > a {
+    background-color: #232930 !important;
+    border: 1px solid #1f2228 !important;
+    color: #cc3f6c !important;
 }
 
 /* Active hovered Buttons */
-#content-body > div > div.js-projects-list-holder > div > ul > li.active.js-pagination-page.page-item > a:hover,
-#content-body > div.snippets-list-holder > div > ul > li.active.js-pagination-page.page-item > a:hover,
-#content-body > div.gl-pagination.prepend-top-default > ul > li.active.js-pagination-page.page-item > a:hover,
-#content-body > div.js-todos-all > div.js-todos-list-container > div.gl-pagination.prepend-top-default > ul > li.active.js-pagination-page.page-item > a:hover {
-    background-color: #232930;
-    border: 1px solid #1f2228;
-    text-decoration: underline;
-    color: #e05480;
+.active.js-pagination-page.page-item > a:hover {
+    background-color: #232930 !important;
+    border: 1px solid #1f2228 !important;
+    text-decoration: underline !important;
+    color: #e05480 !important;
 }
 
 body > header > div > div > div.navbar-collapse.collapse > ul > li.nav-item.d-none.d-sm-none.d-md-block.m-auto > div > form {
